@@ -14,26 +14,27 @@
    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-512x512.png">
    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-512x512.png">
    <link rel="manifest" href="./fav_index/android-chrome-512x512.png">
-
+   
    <!-- Stylesheet -->
    <link rel="stylesheet" href="./css/style.css">
-   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-deep_orange.min.css" />
-
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-deep_orange.min.css"/>
+   
    <!-- Title -->
    <title>Temperature Webpage in PHP</title>
-  </head>
+ </head>
   <body>
-
+    
    <!-- Header -->
    <?php echo "<h1>Temperature Website in PHP</h1>"; ?>
 
    <!-- Image -->
+   <center>
    <img src="./images/weather.jpg" alt="Weather" width="300" length="300">
 
    <!-- Div -->
    <div>
      <?php
-       echo "<h3>Greetings...</h3>";
+       echo "<h3>Is it hot or cold...?</h3>";
        echo "<p>This web page can help you determine whether the temperature is hot or cold!</p>";
      ?>
     </div>
@@ -44,8 +45,9 @@
       <input type="float" step="0.01" name="temp-entered" placeholder="Degrees"><br><br>
       <input type="submit" id="button" value="Evaluate" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
     </form>
-
+     
     <!-- iFrame -->
-    <iframe name="results" id="results"><iframe>
+    <iframe name="results" id="results"></iframe>
+   </center>
   </body>
 </html>
