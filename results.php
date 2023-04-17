@@ -1,6 +1,6 @@
 <?php
 
-  //initializing variables & constant
+  //getting temperature and message variables & temperature-limit constant
   $temperature = floatval($_POST["temp-entered"]);
   define ("TEMP_LIMIT", 15);
   $message = "";
